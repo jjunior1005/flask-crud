@@ -2,16 +2,16 @@
 # http://127.0.0.1:5000/tasks/5
 
 
-### ENVIAR UMA TAREFA
+### CADASTRAR UMA TAREFA
 POST http://127.0.0.1:5000/tasks
 Content-Type: application/json
 
 {
-    "title": "Estudando Flasks",
-    "description": "APIs"
+    "title": "Dar comida para o gato",
+    "description": "222222"
 }
 
-### CAPTURAR TODAS AS TAREFAS
+### LISTAR TODAS AS TAREFAS
 GET http://127.0.0.1:5000/tasks
 
 ### CAPTURA APENAS UMA TASK
@@ -27,3 +27,8 @@ Accept-Charset:
     "description":"estudar crud",
     "completed":"false"
 }
+
+### DELETA UMA TASK
+DELETE http://127.0.0.1:5000/tasks/2
+Content-Type: application/json
+
