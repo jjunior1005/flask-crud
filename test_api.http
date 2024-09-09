@@ -15,7 +15,7 @@ Content-Type: application/json
 GET http://127.0.0.1:5000/tasks
 
 ### CAPTURA APENAS UMA TASK
-GET http://127.0.0.1:5000/tasks/1
+GET http://127.0.0.1:5000/tasks/4
 
 ### ATUALIZA UMA TASK
 PUT http://127.0.0.1:5000/tasks/5
@@ -29,6 +29,6 @@ Accept-Charset:
 }
 
 ### DELETA UMA TASK
-DELETE http://127.0.0.1:5000/tasks/2
+DELETE http://127.0.0.1:5000/tasks/1
 Content-Type: application/json
 
